@@ -9,7 +9,7 @@ app.get("/", (req, res) => {
   res.sendFile(path.join(__dirname, "public/index.html"))
 })
 
-const PORT = 3000
+const PORT = 5500
 
 app.listen(PORT, () => {
   console.log(`Server running on port ${PORT}`)
