@@ -29,7 +29,7 @@ pipeline {
             steps {
 
                 sh 'docker rm -f node-app || true'
-                sh 'docker run -d -p 80:3000 --name node-app node-cicd-app'
+                sh 'docker run -d -p 5500:3000 --name node-app node-cicd-app'
 
             }
 
