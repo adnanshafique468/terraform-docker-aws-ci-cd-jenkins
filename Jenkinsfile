@@ -8,8 +8,8 @@ pipeline {
 
             steps {
 
-                git 'https://github.com/adnanshafique468/terraform-docker-aws-ci-cd-jenkins'
-
+                git branch: 'main', url: 'https://github.com/adnanshafique468/terraform-docker-aws-ci-cd-jenkins'
+    
             }
 
         }
